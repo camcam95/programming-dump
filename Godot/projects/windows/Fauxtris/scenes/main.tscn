@@ -1,0 +1,25 @@
+[gd_scene load_steps=10 format=3 uid="uid://b4maixin8ec16"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_jqjec"]
+[ext_resource type="PackedScene" uid="uid://dfe5cob8wnpf6" path="res://scenes/pieces/piece_orange_ricky.tscn" id="2_sqmrt"]
+[ext_resource type="PackedScene" uid="uid://d3e7l17rphf1e" path="res://scenes/pieces/piece_blue_ricky.tscn" id="3_yi24j"]
+[ext_resource type="PackedScene" uid="uid://cb2qia2unrfpj" path="res://scenes/pieces/piece_cleveland_z.tscn" id="4_7wqqk"]
+[ext_resource type="PackedScene" uid="uid://b6sqttl4gjwa" path="res://scenes/pieces/piece_rhode_island_z.tscn" id="5_hbfys"]
+[ext_resource type="PackedScene" uid="uid://pxhl6gemg8j1" path="res://scenes/pieces/piece_hero.tscn" id="6_2heu4"]
+[ext_resource type="PackedScene" uid="uid://ds2r41crx1rcp" path="res://scenes/pieces/piece_tee_wee.tscn" id="7_jl1hn"]
+[ext_resource type="PackedScene" uid="uid://d0rjwxre28u7g" path="res://scenes/pieces/piece_smashboy.tscn" id="8_lvtce"]
+[ext_resource type="Texture2D" uid="uid://bkge03wb055oa" path="res://assets/grid.png" id="9_cl37s"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_jqjec")
+orange_ricky_scene = ExtResource("2_sqmrt")
+blue_ricky_scene = ExtResource("3_yi24j")
+cleveland_z_scene = ExtResource("4_7wqqk")
+rhode_island_z_scene = ExtResource("5_hbfys")
+hero_scene = ExtResource("6_2heu4")
+teewee_scene = ExtResource("7_jl1hn")
+smashboy_scene = ExtResource("8_lvtce")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("9_cl37s")
+centered = false
