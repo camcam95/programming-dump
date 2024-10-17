@@ -101,5 +101,5 @@ grow_vertical = 0
 theme_override_styles/normal = SubResource("StyleBoxFlat_ihqio")
 text = "START"
 
-[connection signal="pressed" from="Background/StartButton" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Background/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Background/StartButton" to="." method="_on_button_pressed"]

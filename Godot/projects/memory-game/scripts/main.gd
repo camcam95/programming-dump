@@ -28,38 +28,27 @@ func generate_board(diff):
 	# Difficulty cases
 	match diff:
 		0:
-			for x in range(0, base_pairs):
-				var board_piece = board_piece_scene.instantiate()
-				board.append(board_piece)
-				add_child(board_piece)
+			board_piece_creation(base_pairs + (diff * 1))
 		1:
-			for x in range(0, base_pairs + (diff * 2)):
-				var board_piece = board_piece_scene.instantiate()
-				board.append(board_piece)
-				add_child(board_piece)
+			board_piece_creation(base_pairs + (diff * 2))
 		2:
-			for x in range(0, base_pairs + (diff * 3)):
-				var board_piece = board_piece_scene.instantiate()
-				board.append(board_piece)
-				add_child(board_piece)
+			board_piece_creation(base_pairs + (diff * 3))
 	
 	# Give each board piece a cell vector	
 	for i in range(0, board.size()):
 		for j in range(0, board.size()):
 			board[i].get_node("Button").text = str(i)
 			board[i].cell = Vector2(i, j)
-	
-	# Copy the board array, shift it all down one by adding 1 to cell.y
-	var temp_board = board
-	for i in range(0, temp_board.size()):
-		temp_board[i].cell.y += cell_size
-	
-	# Combine two arrays and shuffle
-	board.append_array(temp_board)
-	board.shuffle()
-	
+		
 	# Place each piece in its cell
 	for i in range(0, board.size()):
 		board[i].get_node("Button").position = Vector2(board[i].cell.x * cell_size + 10, board[i].cell.y * cell_size + 10)
-	
-	# print(board)
+
+func board_piece_creation(amount):
+	for x in range(0, amount):
+		var board_piece = board_piece_scene.instantiate()
+		board.append(board_piece)
+		var board_piece2 = board_piece_scene.instantiate()
+		board.append(board_piece2)
+		add_child(board_piece)
+		add_child(board_piece2)
