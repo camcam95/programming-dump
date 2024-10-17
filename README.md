@@ -9,3 +9,5 @@ Also currently contains:
   - A state of completion
 - Sharky's Adventure
   - A pipe dream
+- Fauxtris
+  - WIP
