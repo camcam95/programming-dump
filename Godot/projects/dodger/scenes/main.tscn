@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://ji3lhlyuxdyq"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_2yams"]
+[ext_resource type="PackedScene" uid="uid://dihojsk63mrq8" path="res://scenes/hud.tscn" id="2_hy1mf"]
+[ext_resource type="Texture2D" uid="uid://re2lnds5dc31" path="res://assets/background.png" id="2_rvujo"]
+[ext_resource type="PackedScene" uid="uid://cwy06myoi0pvx" path="res://scenes/sawblade.tscn" id="2_yx1oj"]
+[ext_resource type="PackedScene" uid="uid://5hgnp50h2law" path="res://scenes/player.tscn" id="4_ikf5d"]
+[ext_resource type="PackedScene" uid="uid://b6qsyku6lr0um" path="res://scenes/game_over.tscn" id="6_fhvly"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_2yams")
+sawblade_scene = ExtResource("2_yx1oj")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("2_rvujo")
+centered = false
+
+[node name="HUD" parent="." instance=ExtResource("2_hy1mf")]
+
+[node name="Player" parent="." instance=ExtResource("4_ikf5d")]
+scale = Vector2(0.75, 0.75)
+
+[node name="ProjectileTimer" type="Timer" parent="."]
+wait_time = 0.25
+
+[node name="ScoreTimer" type="Timer" parent="."]
+
+[node name="GameOverMenu" parent="." instance=ExtResource("6_fhvly")]
+process_mode = 2
+
+[connection signal="hit" from="Player" to="." method="_on_player_hit"]
+[connection signal="timeout" from="ProjectileTimer" to="." method="_on_projectile_timer_timeout"]
+[connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
+[connection signal="reset" from="GameOverMenu" to="." method="_on_game_over_reset"]

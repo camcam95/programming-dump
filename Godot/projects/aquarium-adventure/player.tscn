@@ -1,0 +1,66 @@
+[gd_scene load_steps=12 format=3 uid="uid://cximsqfolxyxb"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_ha31n"]
+[ext_resource type="Texture2D" uid="uid://buvgqjk5ybpp3" path="res://art/sprites/moving/tile004.png" id="1_t3q2q"]
+[ext_resource type="Texture2D" uid="uid://4jy4e23qrnq1" path="res://art/sprites/moving/tile005.png" id="2_s5b4q"]
+[ext_resource type="Texture2D" uid="uid://cydduixkbd0cr" path="res://art/sprites/moving/tile006.png" id="3_nib8p"]
+[ext_resource type="Texture2D" uid="uid://dl2ak61j5v3xk" path="res://art/sprites/moving/tile007.png" id="4_xec3h"]
+[ext_resource type="Texture2D" uid="uid://ti7f7ubddi0l" path="res://art/sprites/still/tile000.png" id="5_p8yi5"]
+[ext_resource type="Texture2D" uid="uid://cvtlwowjj5is" path="res://art/sprites/still/tile001.png" id="6_jjsw7"]
+[ext_resource type="Texture2D" uid="uid://4slct27pwu4t" path="res://art/sprites/still/tile002.png" id="7_2yya5"]
+[ext_resource type="Texture2D" uid="uid://c5onwbn5rv82h" path="res://art/sprites/still/tile003.png" id="8_n67yu"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_10y6g"]
+radius = 50.0
+height = 129.72
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86g6u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_t3q2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_s5b4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nib8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xec3h")
+}],
+"loop": true,
+"name": &"moving",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_p8yi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jjsw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2yya5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_n67yu")
+}],
+"loop": true,
+"name": &"still",
+"speed": 6.0
+}]
+
+[node name="Player" type="Area2D"]
+script = ExtResource("1_ha31n")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_10y6g")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_86g6u")
+animation = &"still"
+frame_progress = 0.795898

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dh17f2ilvlcga"]
+
+[ext_resource type="Texture2D" uid="uid://djx2trfy1blwu" path="res://assets/projectiles/wooden_box.png" id="1_jyp8l"]
+[ext_resource type="Script" path="res://scripts/wooden_box.gd" id="1_ng1d8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_prrfu"]
+size = Vector2(26, 26)
+
+[node name="WoodenBox" type="Area2D"]
+script = ExtResource("1_ng1d8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_jyp8l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_prrfu")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

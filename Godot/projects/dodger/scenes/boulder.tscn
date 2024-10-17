@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bd61ks87ptaxp"]
+
+[ext_resource type="Texture2D" uid="uid://dapcm6ketapfl" path="res://assets/projectiles/brown_rock.png" id="1_0wrdc"]
+[ext_resource type="Script" path="res://scripts/boulder.gd" id="1_pu3j0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ihse8"]
+
+[node name="Boulder" type="Area2D"]
+script = ExtResource("1_pu3j0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_0wrdc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ihse8")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
