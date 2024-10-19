@@ -50,5 +50,5 @@ func board_piece_creation(amount):
 		board.append(board_piece)
 		var board_piece2 = board_piece_scene.instantiate()
 		board.append(board_piece2)
-		add_child(board_piece)
-		add_child(board_piece2)
+		$GridContainer.add_child(board_piece)
+		$GridContainer.add_child(board_piece2)
