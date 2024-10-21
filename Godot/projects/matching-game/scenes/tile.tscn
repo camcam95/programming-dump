@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://828frntw3qtb"]
+
+[ext_resource type="StyleBox" uid="uid://blfjuhukcl3kf" path="res://assets/styles/tile_normal.tres" id="1_dcobm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p7lxo"]
+bg_color = Color(0.705882, 0.313726, 0, 1)
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.352941, 0.0627451, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 16
+
+[node name="Tile" type="Button"]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_styles/focus = SubResource("StyleBoxFlat_p7lxo")
+theme_override_styles/normal = ExtResource("1_dcobm")

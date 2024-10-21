@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bauaa85mqxb5o"]
+
+[ext_resource type="Script" path="res://scripts/tile_data.gd" id="1_mielc"]
+[ext_resource type="Texture2D" uid="uid://bk27x37s56qgx" path="res://assets/tiles/potion.svg" id="2_6a8bq"]
+
+[resource]
+script = ExtResource("1_mielc")
+tile_texture = ExtResource("2_6a8bq")

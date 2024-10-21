@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmjh27f8y1xyc"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_rkwpa"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_rkwpa")
