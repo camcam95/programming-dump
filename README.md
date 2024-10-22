@@ -13,4 +13,4 @@ Also currently contains:
 - Dodger
 - Coin Dash
 
-* All projects can be polished further
+*All projects can be polished further
