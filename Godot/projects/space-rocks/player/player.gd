@@ -1,5 +1,9 @@
 extends RigidBody2D
 
+@export var bullet_scene : PackedScene
+@export var fire_rate = 0.25
+var can_shoot = true
+
 @export var engine_power = 500
 @export var spin_power = 8000
 
@@ -14,6 +18,7 @@ var state = INIT
 func _ready() -> void:
 	screensize = get_viewport_rect().size
 	change_state(ALIVE)
+	$GunCooldown.wait_time = fire_rate
 
 func change_state(new_state):
 	match new_state:
@@ -37,6 +42,8 @@ func get_input():
 		return
 	if Input.is_action_pressed("thrust"):
 		thrust = transform.x * engine_power
+	if Input.is_action_pressed("shoot") and can_shoot:
+		shoot()
 	rotation_dir = Input.get_axis("rotate_left", "rotate_right")
 	
 func _physics_process(delta: float) -> void:
@@ -50,3 +57,17 @@ func _integrate_forces(physics_state: PhysicsDirectBodyState2D) -> void:
 	xform.origin.x = wrapf(xform.origin.x, 0, screensize.x)
 	xform.origin.y = wrapf(xform.origin.y, 0, screensize.y)
 	physics_state.transform = xform
+
+func shoot():
+	# Can't shoot if you're a ghost
+	if state == INVULNERABLE:
+		return
+	can_shoot = false
+	$GunCooldown.start()
+	var b = bullet_scene.instantiate()
+	get_tree().root.add_child(b)
+	b.start($Muzzle.global_transform)
+
+
+func _on_gun_cooldown_timeout() -> void:
+	can_shoot = true
