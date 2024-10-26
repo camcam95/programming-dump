@@ -27,6 +27,8 @@ func spawn_rock(size, pos=null, vel=null):
 	r.exploded.connect(self._on_rock_exploded)
 
 func _on_rock_exploded(size, radius, pos, vel):
+	#score += 1
+	#$HUD.update_score(score)
 	if size <= 1:
 		return
 	for offset in [-1, 1]:
@@ -44,6 +46,7 @@ func new_game():
 	$Player.reset()
 	await $HUD/Timer.timeout
 	playing = true
+	spawn_rock(3)
 	
 func new_level():
 	level += 1

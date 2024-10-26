@@ -17,11 +17,11 @@ func update_score(value):
 	
 func update_lives(value):
 	for item in 3:
-		lives_counter[item].visable = value > item
+		lives_counter[item].visible = value > item
 
 func game_over():
 	show_message("Game Over")
-	await Timer.timeout
+	await $Timer.timeout
 	start_button.show()
 	
 func _on_start_button_pressed() -> void:
@@ -30,4 +30,4 @@ func _on_start_button_pressed() -> void:
 
 func _on_timer_timeout() -> void:
 	message.hide()
-	message.text = ""
+	message.text = "Play again?a"
