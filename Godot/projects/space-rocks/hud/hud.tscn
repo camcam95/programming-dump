@@ -1,17 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://cfgc3q4wtecg"]
+[gd_scene load_steps=9 format=3 uid="uid://cfgc3q4wtecg"]
 
 [ext_resource type="Script" path="res://hud/hud.gd" id="1_6j8re"]
 [ext_resource type="FontFile" uid="uid://bk3w4djehqm3q" path="res://assets/kenvector_future_thin.ttf" id="1_y7xg5"]
 [ext_resource type="Texture2D" uid="uid://brlmmf33dplxt" path="res://assets/player_small.png" id="2_h0843"]
 [ext_resource type="Texture2D" uid="uid://gihektr238a5" path="res://assets/play_button.png" id="3_a2nkk"]
+[ext_resource type="Texture2D" uid="uid://bl1glqrk1g4sr" path="res://assets/shield_gold.png" id="3_cqnyr"]
+[ext_resource type="Texture2D" uid="uid://bbfbflh138vra" path="res://assets/bar_glass_200.png" id="4_0t00c"]
 [ext_resource type="Texture2D" uid="uid://dcbt0l7jrha2k" path="res://assets/play_button_h.png" id="4_xsf1f"]
+[ext_resource type="Texture2D" uid="uid://hlf1tm6crbey" path="res://assets/bar_green_200.png" id="5_68p3h"]
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_6j8re")
-
-[node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
-one_shot = true
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 10
@@ -31,6 +30,21 @@ size_flags_horizontal = 3
 theme_override_fonts/font = ExtResource("1_y7xg5")
 theme_override_font_sizes/font_size = 64
 text = "0"
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("3_cqnyr")
+stretch_mode = 3
+
+[node name="ShieldBar" type="TextureProgressBar" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.01
+value = 0.75
+texture_over = ExtResource("4_0t00c")
+texture_progress = ExtResource("5_68p3h")
 
 [node name="LivesCounter" type="HBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
@@ -76,5 +90,9 @@ size_flags_horizontal = 4
 texture_normal = ExtResource("3_a2nkk")
 texture_hover = ExtResource("4_xsf1f")
 
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[node name="Timer" type="Timer" parent="VBoxContainer"]
+wait_time = 2.0
+one_shot = true
+
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="timeout" from="VBoxContainer/Timer" to="." method="_on_timer_timeout"]
