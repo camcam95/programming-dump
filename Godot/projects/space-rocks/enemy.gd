@@ -1,5 +1,7 @@
 extends Area2D
 
+signal killed
+
 @export var bullet_scene : PackedScene
 @export var speed = 150
 @export var rotation_speed = 120
@@ -29,6 +31,7 @@ func _on_gun_cooldown_timeout() -> void:
 #	shoot_pulse(3, 0.15)
 
 func shoot():
+	$EnemyLaserSound.play()
 	var dir = global_position.direction_to(target.global_position)
 	dir = dir.rotated(randf_range(-bullet_spread, bullet_spread))
 	var b = bullet_scene.instantiate()
@@ -48,11 +51,13 @@ func take_damage(amount):
 		
 func explode():
 	speed = 0
+	$ExplosionSound.play()
 	$GunCooldown.stop()
 	$CollisionShape2D.set_deferred("disabled", true)
 	$Sprite2D.hide()
 	$Explosion.show()
 	$Explosion/AnimationPlayer.play("explosion")
+	killed.emit()
 	await $Explosion/AnimationPlayer.animation_finished
 	queue_free()
 

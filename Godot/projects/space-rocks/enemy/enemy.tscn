@@ -1,10 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://dab7qey8sicy8"]
+[gd_scene load_steps=15 format=3 uid="uid://dab7qey8sicy8"]
 
 [ext_resource type="Script" path="res://enemy.gd" id="1_ol4xo"]
 [ext_resource type="Texture2D" uid="uid://m8uvouu17iat" path="res://assets/enemy_saucer.png" id="2_e1b4o"]
 [ext_resource type="PackedScene" uid="uid://ghd20m6b8xm1" path="res://enemy/enemy_bullet.tscn" id="2_x3cb0"]
 [ext_resource type="PackedScene" uid="uid://di4jqdk1pdcwh" path="res://enemy/enemy_paths.tscn" id="3_y4fjw"]
 [ext_resource type="PackedScene" uid="uid://cxfmdr4v33f60" path="res://explosion/explosion.tscn" id="4_hcgc8"]
+[ext_resource type="AudioStream" uid="uid://dowobl4nyhncu" path="res://assets/sounds/explosion.wav" id="6_54v6a"]
+[ext_resource type="AudioStream" uid="uid://s60iwb8rpp21" path="res://assets/sounds/enemy_laser.wav" id="7_vj1jh"]
+[ext_resource type="Texture2D" uid="uid://c1clybmjm17b1" path="res://assets/corona.png" id="8_f8by2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3ph2n"]
 radius = 36.0555
@@ -47,6 +50,13 @@ _data = {
 "flash": SubResource("Animation_v5e8v")
 }
 
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_e2ksi"]
+blend_mode = 1
+
+[sub_resource type="Curve" id="Curve_p54oy"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.189547), 0.0, 0.0, 0, 0]
+point_count = 2
+
 [node name="Enemy" type="Area2D" groups=["enemies"]]
 script = ExtResource("1_ol4xo")
 bullet_scene = ExtResource("2_x3cb0")
@@ -71,6 +81,24 @@ visible = false
 [node name="GunCooldown" type="Timer" parent="."]
 wait_time = 1.5
 autostart = true
+
+[node name="ExplosionSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_54v6a")
+
+[node name="EnemyLaserSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_vj1jh")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+show_behind_parent = true
+material = SubResource("CanvasItemMaterial_e2ksi")
+amount = 20
+texture = ExtResource("8_f8by2")
+emission_shape = 1
+emission_sphere_radius = 25.0
+gravity = Vector2(0, 0)
+scale_amount_min = 0.1
+scale_amount_max = 0.1
+scale_amount_curve = SubResource("Curve_p54oy")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="GunCooldown" to="." method="_on_gun_cooldown_timeout"]

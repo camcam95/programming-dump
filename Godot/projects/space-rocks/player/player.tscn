@@ -1,12 +1,21 @@
-[gd_scene load_steps=6 format=3 uid="uid://d4fvohdbhomql"]
+[gd_scene load_steps=10 format=3 uid="uid://d4fvohdbhomql"]
 
 [ext_resource type="Texture2D" uid="uid://dejxg0f5m82jg" path="res://assets/player_ship.png" id="1_bjy56"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_eb755"]
 [ext_resource type="PackedScene" uid="uid://bx2n122focmex" path="res://bullet/bullet.tscn" id="2_218t3"]
 [ext_resource type="PackedScene" uid="uid://cxfmdr4v33f60" path="res://explosion/explosion.tscn" id="4_outxb"]
+[ext_resource type="AudioStream" uid="uid://btvpp1jhe3a0t" path="res://assets/sounds/engine.ogg" id="5_2w224"]
+[ext_resource type="AudioStream" uid="uid://qp4l3ylweudv" path="res://assets/sounds/laser.ogg" id="6_thh1p"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_eyam4"]
 radius = 30.2655
+
+[sub_resource type="Curve" id="Curve_x6jnn"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.252747), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_s22q7"]
+colors = PackedColorArray(0.942905, 0.586558, 0, 1, 0.844814, 0.323727, 0, 1)
 
 [node name="Player" type="RigidBody2D"]
 contact_monitor = true
@@ -22,6 +31,7 @@ scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_bjy56")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("CircleShape2D_eyam4")
 
 [node name="Muzzle" type="Marker2D" parent="."]
@@ -37,6 +47,29 @@ visible = false
 [node name="InvulnerabilityTimer" type="Timer" parent="."]
 wait_time = 2.0
 one_shot = true
+
+[node name="EngineSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_2w224")
+
+[node name="LaserSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_thh1p")
+volume_db = -10.612
+
+[node name="Exhaust" type="CPUParticles2D" parent="."]
+show_behind_parent = true
+position = Vector2(-28, 0)
+rotation = 3.14159
+amount = 25
+lifetime = 0.1
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(1, 5)
+direction = Vector2(0, 0)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_max = 400.0
+scale_amount_curve = SubResource("Curve_x6jnn")
+color_ramp = SubResource("Gradient_s22q7")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="GunCooldown" to="." method="_on_gun_cooldown_timeout"]

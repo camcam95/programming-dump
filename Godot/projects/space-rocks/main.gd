@@ -4,7 +4,7 @@ extends Node
 @export var enemy_scene : PackedScene
 
 var screensize = Vector2.ZERO
-var level = 0
+var level = 1
 var score = 0
 var playing = false
 
@@ -45,8 +45,9 @@ func spawn_rock(size, pos=null, vel=null):
 	r.exploded.connect(self._on_rock_exploded)
 
 func _on_rock_exploded(size, radius, pos, vel):
-	#score += 1
-	#$HUD.update_score(score)
+	score += size
+	$HUD.update_score(score)
+	$ExplosionSound.play()
 	if size <= 1:
 		return
 	for offset in [-1, 1]:
@@ -56,6 +57,7 @@ func _on_rock_exploded(size, radius, pos, vel):
 		spawn_rock(size - 1, newpos, newvel)
 
 func new_game():
+	$Music.play()
 	get_tree().call_group("rocks", "queue_free")
 	level = 0
 	score = 0
@@ -63,11 +65,12 @@ func new_game():
 	$HUD.show_message("Get Ready...")
 	$Player.reset()
 	$Player.show()
-	await $HUD/Timer.timeout
+	await $HUD/VBoxContainer/Timer.timeout
 	playing = true
 	spawn_rock(3)
 	
 func new_level():
+	$LevelUpSound.play()
 	level += 1
 	$HUD.show_message("Wave %s" % level)
 	for i in level:
@@ -75,6 +78,7 @@ func new_level():
 	$EnemyTimer.start(randf_range(5, 10))
 
 func game_over():
+	$Music.stop()
 	playing = false
 	$HUD.game_over()
 
@@ -83,4 +87,9 @@ func _on_enemy_timer_timeout() -> void:
 	var e = enemy_scene.instantiate()
 	add_child(e)
 	e.target = $Player
+	e.killed.connect(self._on_enemy_killed)
 	$EnemyTimer.start(randf_range(20, 40))
+
+func _on_enemy_killed():
+	score += 10
+	$HUD.update_score(score)

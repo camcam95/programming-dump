@@ -18,7 +18,7 @@ var bar_textures = {
 func show_message(text):
 	message.text = text
 	message.show()
-	$Timer.start()
+	$VBoxContainer/Timer.start()
 	
 func update_score(value):
 	score_label.text = str(value)
@@ -29,7 +29,7 @@ func update_lives(value):
 
 func game_over():
 	show_message("Game Over")
-	await $Timer.timeout
+	await $VBoxContainer/Timer.timeout
 	start_button.show()
 	
 func update_shield(value):
@@ -46,4 +46,4 @@ func _on_start_button_pressed() -> void:
 
 func _on_timer_timeout() -> void:
 	message.hide()
-	message.text = "Play again?a"
+	message.text = ""
