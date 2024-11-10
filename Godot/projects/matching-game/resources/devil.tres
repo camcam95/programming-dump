@@ -1,8 +1,0 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cr6tpuer4bgtg"]
-
-[ext_resource type="Script" path="res://scripts/tile_data.gd" id="1_i50pg"]
-[ext_resource type="Texture2D" uid="uid://bsjvogwi4nxwo" path="res://assets/tiles/devil.svg" id="2_0vinq"]
-
-[resource]
-script = ExtResource("1_i50pg")
-tile_texture = ExtResource("2_0vinq")
