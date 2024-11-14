@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://qdicrrccp3yl"]
+
+[ext_resource type="PackedScene" uid="uid://cww3q02me6i1x" path="res://levels/tutorial.tscn" id="2_lg47i"]
+[ext_resource type="PackedScene" uid="uid://bbsi87cdtuntr" path="res://player.tscn" id="3_c56h1"]
+
+[node name="Main" type="Node"]
+
+[node name="Tutorial" parent="." instance=ExtResource("2_lg47i")]
+position = Vector2(307, 261)
+
+[node name="Player" parent="." instance=ExtResource("3_c56h1")]
+position = Vector2(404, 357)

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_01.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_02.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_03.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_04.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_05.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_06.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_07.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Blocks/block_08.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_01.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_02.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_03.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_04.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_05.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_06.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_07.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_08.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_09.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_10.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_11.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_12.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_13.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_14.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_15.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_16.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_17.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_18.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_19.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_20.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_21.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_22.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_23.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_24.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_25.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_26.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_27.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_28.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_29.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_30.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_31.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_32.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_33.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_34.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_35.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_36.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_37.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_38.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_39.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_40.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_41.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_42.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_43.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_44.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Crates/crate_45.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_01.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_02.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_03.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_04.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_05.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_06.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_07.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_08.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_09.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_10.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_11.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_12.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_13.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_14.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_15.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Environment/environment_16.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_01.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_02.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_03.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_04.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_05.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Ground/ground_06.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_01.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_02.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_03.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_04.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_05.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_06.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_07.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_08.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_09.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_10.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_11.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_12.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_13.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_14.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_15.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_16.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_17.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_18.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_19.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_20.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_21.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_22.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_23.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/Player/player_24.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/playerFace_dark.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/playerFace_outline.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/PNG/Default size/playerFace.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/Spritesheet/sokoban_spritesheet.png</File>
+    <File>/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/Content/Tilesheet/sokoban_tilesheet.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

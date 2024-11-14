@@ -1,0 +1,130 @@
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Sokoban
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Sokoban.deps.json
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Sokoban.runtimeconfig.json
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Sokoban.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Sokoban.pdb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/MonoGame.Framework.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/NVorbis.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so.1
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/osx/native/libopenal.1.dylib
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/win-x64/native/soft_oal.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/win-x86/native/soft_oal.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/osx/native/libSDL2.dylib
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.csproj.AssemblyReference.cache
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.GeneratedMSBuildEditorConfig.editorconfig
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.AssemblyInfoInputs.cache
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.AssemblyInfo.cs
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.csproj.CoreCompileInputs.cache
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.sourcelink.json
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.csproj.Up2Date
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/refint/Sokoban.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.pdb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/Sokoban.genruntimeconfig.cache
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/obj/Debug/net8.0/ref/Sokoban.dll
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_01.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_02.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_03.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_04.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_05.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_06.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_07.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Blocks/block_08.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_01.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_02.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_03.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_04.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_05.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_06.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_07.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_08.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_09.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_10.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_11.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_12.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_13.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_14.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_15.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_16.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_17.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_18.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_19.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_20.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_21.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_22.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_23.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_24.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_25.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_26.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_27.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_28.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_29.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_30.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_31.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_32.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_33.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_34.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_35.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_36.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_37.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_38.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_39.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_40.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_41.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_42.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_43.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_44.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Crates/crate_45.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_01.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_02.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_03.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_04.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_05.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_06.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_07.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_08.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_09.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_10.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_11.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_12.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_13.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_14.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_15.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Environment/environment_16.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_01.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_02.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_03.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_04.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_05.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Ground/ground_06.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_01.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_02.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_03.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_04.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_05.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_06.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_07.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_08.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_09.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_10.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_11.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_12.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_13.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_14.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_15.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_16.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_17.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_18.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_19.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_20.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_21.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_22.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_23.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/Player/player_24.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/playerFace.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/playerFace_dark.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/PNG/Default size/playerFace_outline.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/Spritesheet/sokoban_spritesheet.xnb
+/home/ccampos/Github/programming-dump/MonoGame/Sokoban/Sokoban/bin/Debug/net8.0/Content/Tilesheet/sokoban_tilesheet.xnb
