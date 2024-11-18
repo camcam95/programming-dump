@@ -1,12 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://qdicrrccp3yl"]
+[gd_scene load_steps=4 format=3 uid="uid://b4smay8gkeoft"]
 
-[ext_resource type="PackedScene" uid="uid://cww3q02me6i1x" path="res://levels/tutorial.tscn" id="2_lg47i"]
-[ext_resource type="PackedScene" uid="uid://bbsi87cdtuntr" path="res://player.tscn" id="3_c56h1"]
+[ext_resource type="PackedScene" uid="uid://d3emx15l5s2gn" path="res://grid_movement/Level.tscn" id="1_4inme"]
+[ext_resource type="PackedScene" uid="uid://b645rmmlm0auf" path="res://grid_movement/Character.tscn" id="1_lfs26"]
+[ext_resource type="Script" path="res://grid_movement/Level.gd" id="2_iwnsu"]
 
 [node name="Main" type="Node"]
 
-[node name="Tutorial" parent="." instance=ExtResource("2_lg47i")]
-position = Vector2(307, 261)
+[node name="Level" parent="." instance=ExtResource("1_4inme")]
+script = ExtResource("2_iwnsu")
 
-[node name="Player" parent="." instance=ExtResource("3_c56h1")]
-position = Vector2(404, 357)
+[node name="Character" parent="Level" instance=ExtResource("1_lfs26")]
+position = Vector2(96, 96)
