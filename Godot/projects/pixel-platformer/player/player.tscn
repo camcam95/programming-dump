@@ -1,0 +1,69 @@
+[gd_scene load_steps=7 format=3 uid="uid://cd2yfpj6c2vp6"]
+
+[ext_resource type="Script" path="res://player/player.gd" id="1_ks4mm"]
+[ext_resource type="Texture2D" uid="uid://sesn5pqibbqk" path="res://assets/png/tilemap-characters_packed.png" id="2_3fjtx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nlmw3"]
+size = Vector2(12, 23)
+
+[sub_resource type="Animation" id="Animation_moweu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_pb1cp"]
+resource_name = "walk"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_egtq8"]
+_data = {
+"RESET": SubResource("Animation_moweu"),
+"walk": SubResource("Animation_pb1cp")
+}
+
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(0, -12)
+collision_layer = 2
+collision_mask = 13
+script = ExtResource("1_ks4mm")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_3fjtx")
+hframes = 9
+vframes = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_nlmw3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_egtq8")
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.5, 2.5)
