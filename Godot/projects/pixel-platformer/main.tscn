@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://ui0hyyf8i7g6"]
+[gd_scene load_steps=5 format=3 uid="uid://ui0hyyf8i7g6"]
 
 [ext_resource type="PackedScene" uid="uid://cd2yfpj6c2vp6" path="res://player/player.tscn" id="1_13rwn"]
+[ext_resource type="PackedScene" uid="uid://ca4d3f7i16o8n" path="res://blocks/question/block_question.tscn" id="2_e08ai"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ftu2s"]
 
@@ -18,3 +19,6 @@ physics_material_override = SubResource("PhysicsMaterial_ftu2s")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(503, 156)
 shape = SubResource("RectangleShape2D_lacia")
+
+[node name="BlockQuestion" parent="." instance=ExtResource("2_e08ai")]
+position = Vector2(448, 87)

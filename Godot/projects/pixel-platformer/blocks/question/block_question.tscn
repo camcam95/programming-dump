@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ca4d3f7i16o8n"]
+
+[ext_resource type="Script" path="res://blocks/question/block_question.gd" id="1_5crdy"]
+[ext_resource type="Texture2D" uid="uid://6vykdwyrc05v" path="res://assets/png/smaller-ammount.png" id="2_ge5yq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d548m"]
+size = Vector2(18, 18)
+
+[node name="BlockQuestion" type="Area2D"]
+collision_mask = 14
+script = ExtResource("1_5crdy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ge5yq")
+hframes = 7
+vframes = 3
+frame = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_d548m")

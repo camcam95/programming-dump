@@ -20,6 +20,7 @@ func change_state(new_state) -> void:
 	match state:
 		IDLE:
 			$AnimationPlayer.stop()
+			$Sprite2D.frame = 0
 		RUN:
 			$AnimationPlayer.play("walk")
 		HURT:
@@ -29,7 +30,7 @@ func change_state(new_state) -> void:
 			await get_tree().create_timer(0.5).timeout
 			change_state(IDLE)
 		JUMP:
-			pass
+			$Sprite2D.frame = 1
 		DEAD:
 			died.emit()
 			hide()
